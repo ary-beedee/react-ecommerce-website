@@ -5,7 +5,6 @@ A simple e-commerce application built using React and MongoDB
 ## Features
 
 - Product Listing
-- 
 - Product Details Page
 - Shopping Cart
 - Bill Summary
