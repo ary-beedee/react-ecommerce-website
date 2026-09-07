@@ -1,26 +1,29 @@
 # React E-Commerce Website
 
-A simple e-commerce application built using React and Vite.
+A simple e-commerce application built using React and MongoDB
 
 ## Features
 
 - Product Listing
+- 
 - Product Details Page
 - Shopping Cart
 - Bill Summary
 
 ## Tech Stack
 
+- HTML
+- CSS
+- JavaScript
 - React
-- Vite
 - React Router DOM
 - Context API
-- CSS
-- DummyJSON API
+- MongoDB
 
 ## API
 
-https://dummyjson.com/products?limit=194
+https://dummyjson.com/products?limit=194 [earlier]
+https://legendary-engine-vx95pgggjwg2w4w4-5000.app.github.dev/api
 
 ## Installation
 
