@@ -5,7 +5,7 @@ function Home() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://dummyjson.com/products?limit=194")
+    fetch(`${import.meta.env.VITE_API_URL}/products?limit=194`)
       .then((res) => res.json())
       .then((data) => setProducts(data.products));
   }, []);
