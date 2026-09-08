@@ -10,7 +10,7 @@ function Product() {
   const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_API_URL}/products?limit=194`)
+    fetch("https://dummyjson.com/products?limit=194")
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [id]);
